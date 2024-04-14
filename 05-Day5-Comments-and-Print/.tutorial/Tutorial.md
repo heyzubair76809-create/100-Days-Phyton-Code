@@ -100,8 +100,8 @@ An escape sequence character is a backslash  `\`  followed by the character you 
 An example of a character that cannot be directly used in a string is a double quote inside a string that is surrounded by double quotes:
 
 ```python
-print("This doesnt "execute")
-print("This will \" execute")
+print("This doesnt "execute") #this won't execute 
+print("This will \" execute\" ") #this will execute 
 ```
 
 # More on Print statement
